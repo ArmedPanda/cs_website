@@ -83,11 +83,13 @@ body{
     float:left;
     list-style-type: none;
     
+    color:rgb(255,164,43);
     width:100px;
     height:45px;
 }
 .header-menu-list-item:hover{
-    background-color:rgb(193,193,255);
+    background-color:rgb(220,220,220);
+    color:rgb(150,150,255);
 }
 .header-text{
     margin-top:0;
@@ -100,7 +102,7 @@ body{
     
     font-family:'League Gothic';
     font-size: 125%;
-    color:rgb(255,164,43);
+    color:inherit;
     
     text-align:center;
 }
