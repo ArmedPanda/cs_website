@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 9, 2015, 6:03:43 PM
+    Author     : Jaeson
+*/
+body {
+    background-position: center top;
+    background-attachment: fixed;
+    background-image:url("images/home/background.jpg");
+}
+p{
+    margin:0 0 0 0;
+}
+h1{
+    margin:0 0 0 0;
+}
+#welcome_wrapper{
+    background-color:rgba(230,230,230, 0.9);
+    height:549px;
+    width:75%;
+    margin-left:12.5%;
+}
+#welcome_content{
+    padding-top:50px;
+    padding-left:20px;
+}
+#welcome_title{
+    height:20%;
+    float:none;
+    font-family:'Open Sans';
+}
+#welcome_message{
+    margin-top:12.5%;
+    width:50%;
+    height:80%;
+    line-height:200%;
+    font-family:'Open Sans';
+    font-size:large;
+    float:left;
+}
+#table_of_contents_div{
+    float:left;
+    border-style:solid;
+    background-color:rgb(230,230,230);
+    height:350px;
+    width:350px;
+    margin-left: 75px;
+    margin-top:50px;
+}
+#table_of_contents_title{
+    font-family:'Open Sans';
+    margin-left:10px;
+}
+.table_of_contents_item{
+    margin-bottom:40px;
+    margin-top:40px;
+    
+    font-family:'Open Sans';
+    font-size:125%;
+}

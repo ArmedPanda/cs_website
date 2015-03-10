@@ -5,11 +5,11 @@ body{
 /* Regular */
 @font-face {
     font-family: 'League Gothic';
-    src: url('fonts/leaguegothic-italic-webfont.eot');
-    src: url('fonts/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-italic-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-italic-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg');
+    src: url('fonts/leaguegothic/leaguegothic-italic-webfont.eot');
+    src: url('fonts/leaguegothic/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguegothic/leaguegothic-italic-webfont.woff') format('woff'),
+         url('fonts/leaguegothic/leaguegothic-italic-webfont.ttf') format('truetype'),
+         url('fonts/leaguegothic/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg');
     font-weight: normal;
     font-style: italic;
 
@@ -18,11 +18,11 @@ body{
 /* Italic */
 @font-face {
     font-family: 'League Gothic';
-    src: url('fonts/leaguegothic-regular-webfont.eot');
-    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    src: url('fonts/leaguegothic/leaguegothic-regular-webfont.eot');
+    src: url('fonts/leaguegothic/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguegothic/leaguegothic-regular-webfont.woff') format('woff'),
+         url('fonts/leaguegothic/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('fonts/leaguegothic/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -31,11 +31,11 @@ body{
 /* Condensed */
 @font-face {
     font-family: 'League Gothic Condensed';
-    src: url('fonts/leaguegothic-condensed-regular-webfont.eot');
-    src: url('fonts/leaguegothic-condensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-condensed-regular-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-condensed-regular-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-condensed-regular-webfont.svg#league_gothic_condensed-Rg') format('svg');
+    src: url('fonts/leaguegothic/leaguegothic-condensed-regular-webfont.eot');
+    src: url('fonts/leaguegothic/leaguegothic-condensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguegothic/leaguegothic-condensed-regular-webfont.woff') format('woff'),
+         url('fonts/leaguegothic/leaguegothic-condensed-regular-webfont.ttf') format('truetype'),
+         url('fonts/leaguegothic/leaguegothic-condensed-regular-webfont.svg#league_gothic_condensed-Rg') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -44,11 +44,11 @@ body{
 /* Condensed Italic */
 @font-face {
     font-family: 'League Gothic Condensed';
-    src: url('fonts/leaguegothic-condensed-italic-webfont.eot');
-    src: url('fonts/leaguegothic-condensed-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-condensed-italic-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-condensed-italic-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-condensed-italic-webfont.svg#league_gothic_condensed_itaRg') format('svg');
+    src: url('fonts/leaguegothic/leaguegothic-condensed-italic-webfont.eot');
+    src: url('fonts/leaguegothic/leaguegothic-condensed-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguegothic/leaguegothic-condensed-italic-webfont.woff') format('woff'),
+         url('fonts/leaguegothic/leaguegothic-condensed-italic-webfont.ttf') format('truetype'),
+         url('fonts/leaguegothic/leaguegothic-condensed-italic-webfont.svg#league_gothic_condensed_itaRg') format('svg');
     font-weight: normal;
     font-style: italic;
 }
@@ -77,7 +77,9 @@ body{
 }
 .header-menu-list{
     margin-top:0;
+    margin-bottom:0;
     padding-left:0;
+    height:100%;
 }
 .header-menu-list-item{
     float:left;
@@ -92,13 +94,11 @@ body{
     color:rgb(150,150,255);
 }
 .header-text{
-    margin-top:0;
-    margin-bottom:0;
+    margin-top:11.25px;
     margin-left:5px;
     margin-right:5px;
     
-    height:45px;
-    line-height:45px;
+    height:50%;
     
     font-family:'League Gothic';
     font-size: 125%;
